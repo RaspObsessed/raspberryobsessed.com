@@ -1,0 +1,63 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.unselectable {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hero h1 {
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.link {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Customize the scrollbar track */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 6px;
+}
+
+/* Customize the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+/* Customize the scrollbar corner */
+::-webkit-scrollbar-corner {
+    background: #111;
+}

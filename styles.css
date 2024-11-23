@@ -1,0 +1,80 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.unselectable {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Center-align the video gallery */
+.video-gallery {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Display videos side by side with a gap */
+.video-card {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+}
+
+/* Adjust layout for smaller screens */
+@media (max-width: 768px) {
+    .video-gallery {
+        padding: 20px;
+    }
+    
+    .video-card {
+        display: block;
+        margin: 10px auto;
+        max-width: 100%;
+    }
+}
+
+/* Customize the scrollbar track */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111;
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 6px;
+}
+
+/* Customize the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+/* Customize the scrollbar corner */
+::-webkit-scrollbar-corner {
+    background: #111;
+}
